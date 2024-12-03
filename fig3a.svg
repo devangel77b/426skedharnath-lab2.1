@@ -59,11 +59,11 @@
 <rect x='20.86' y='3.99' width='191.15' height='116.71' style='stroke-width: 0.78; stroke: #333333;' />
 </g>
 <g clip-path='url(#cpMC4wMHwyMTYuMDB8MC4wMHwxNDQuMDA=)'>
-<text x='17.27' y='117.67' text-anchor='end' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arimo";' textLength='3.66px' lengthAdjust='spacingAndGlyphs'>0</text>
-<text x='17.27' y='91.14' text-anchor='end' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arimo";' textLength='3.66px' lengthAdjust='spacingAndGlyphs'>1</text>
-<text x='17.27' y='64.62' text-anchor='end' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arimo";' textLength='3.66px' lengthAdjust='spacingAndGlyphs'>2</text>
-<text x='17.27' y='38.10' text-anchor='end' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arimo";' textLength='3.66px' lengthAdjust='spacingAndGlyphs'>3</text>
-<text x='17.27' y='11.57' text-anchor='end' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arimo";' textLength='3.66px' lengthAdjust='spacingAndGlyphs'>4</text>
+<text x='17.27' y='117.67' text-anchor='end' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arial";' textLength='3.66px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='17.27' y='91.14' text-anchor='end' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arial";' textLength='3.66px' lengthAdjust='spacingAndGlyphs'>1</text>
+<text x='17.27' y='64.62' text-anchor='end' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arial";' textLength='3.66px' lengthAdjust='spacingAndGlyphs'>2</text>
+<text x='17.27' y='38.10' text-anchor='end' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arial";' textLength='3.66px' lengthAdjust='spacingAndGlyphs'>3</text>
+<text x='17.27' y='11.57' text-anchor='end' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arial";' textLength='3.66px' lengthAdjust='spacingAndGlyphs'>4</text>
 <polyline points='18.87,115.39 20.86,115.39 ' style='stroke-width: 0.78; stroke: #333333; stroke-linecap: butt;' />
 <polyline points='18.87,88.86 20.86,88.86 ' style='stroke-width: 0.78; stroke: #333333; stroke-linecap: butt;' />
 <polyline points='18.87,62.34 20.86,62.34 ' style='stroke-width: 0.78; stroke: #333333; stroke-linecap: butt;' />
@@ -75,13 +75,13 @@
 <polyline points='133.82,122.68 133.82,120.69 ' style='stroke-width: 0.78; stroke: #333333; stroke-linecap: butt;' />
 <polyline points='168.57,122.68 168.57,120.69 ' style='stroke-width: 0.78; stroke: #333333; stroke-linecap: butt;' />
 <polyline points='203.33,122.68 203.33,120.69 ' style='stroke-width: 0.78; stroke: #333333; stroke-linecap: butt;' />
-<text x='29.55' y='128.84' text-anchor='middle' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arimo";' textLength='9.03px' lengthAdjust='spacingAndGlyphs'>0.0</text>
-<text x='64.31' y='128.84' text-anchor='middle' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arimo";' textLength='9.03px' lengthAdjust='spacingAndGlyphs'>0.1</text>
-<text x='99.06' y='128.84' text-anchor='middle' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arimo";' textLength='9.03px' lengthAdjust='spacingAndGlyphs'>0.2</text>
-<text x='133.82' y='128.84' text-anchor='middle' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arimo";' textLength='9.03px' lengthAdjust='spacingAndGlyphs'>0.3</text>
-<text x='168.57' y='128.84' text-anchor='middle' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arimo";' textLength='9.03px' lengthAdjust='spacingAndGlyphs'>0.4</text>
-<text x='203.33' y='128.84' text-anchor='middle' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arimo";' textLength='9.03px' lengthAdjust='spacingAndGlyphs'>0.5</text>
-<text x='116.44' y='138.09' text-anchor='middle' style='font-size: 8.00px; font-family: "Arimo";' textLength='94.92px' lengthAdjust='spacingAndGlyphs'>$m_2$ (\unit{\kilo\gram})</text>
-<text transform='translate(9.70,62.34) rotate(-90)' text-anchor='middle' style='font-size: 8.00px; font-family: "Arimo";' textLength='149.55px' lengthAdjust='spacingAndGlyphs'>$a$ (\unit{\meter\per\second\squared})</text>
+<text x='29.55' y='128.84' text-anchor='middle' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arial";' textLength='9.03px' lengthAdjust='spacingAndGlyphs'>0.0</text>
+<text x='64.31' y='128.84' text-anchor='middle' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arial";' textLength='9.03px' lengthAdjust='spacingAndGlyphs'>0.1</text>
+<text x='99.06' y='128.84' text-anchor='middle' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arial";' textLength='9.03px' lengthAdjust='spacingAndGlyphs'>0.2</text>
+<text x='133.82' y='128.84' text-anchor='middle' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arial";' textLength='9.03px' lengthAdjust='spacingAndGlyphs'>0.3</text>
+<text x='168.57' y='128.84' text-anchor='middle' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arial";' textLength='9.03px' lengthAdjust='spacingAndGlyphs'>0.4</text>
+<text x='203.33' y='128.84' text-anchor='middle' style='font-size: 6.40px;fill: #4D4D4D; font-family: "Arial";' textLength='9.03px' lengthAdjust='spacingAndGlyphs'>0.5</text>
+<text x='116.44' y='138.09' text-anchor='middle' style='font-size: 8.00px; font-family: "Arial";' textLength='94.92px' lengthAdjust='spacingAndGlyphs'>$m_2$ (\unit{\kilo\gram})</text>
+<text transform='translate(9.70,62.34) rotate(-90)' text-anchor='middle' style='font-size: 8.00px; font-family: "Arial";' textLength='149.55px' lengthAdjust='spacingAndGlyphs'>$a$ (\unit{\meter\per\second\squared})</text>
 </g>
 </svg>
