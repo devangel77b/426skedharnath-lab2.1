@@ -43,37 +43,29 @@ This experiment tested Newton’s second law of motion, $F=ma$, by examining the
 
 
 \section{Introduction}
-The fundamental principles of classical mechanics provide a framework for understanding the motion of objects under the influence of various forces. One of the most crucial relationships in this field is encapsulated in Newton's Second Law of Motion\cite{tipler}, which states that the acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass. This relationship can be mathematically expressed as:
+Newton's second law of motion\cite{tipler} states that the acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass. This relationship can be mathematically expressed as:
 \begin{equation}
 F = ma
 \end{equation}
-where $F$ is the net force applied to an object, $m$ is its mass, and $a$ is the resulting acceleration.
+where $F$ is the net force applied to an object, $m$ is its mass, and $a$ is the resulting acceleration.  In this experiment, we investigate the relationship between net force and acceleration using a simple cart system. The system consists of a cart of constant mass $m_1$, connected to a pulley system that allows for varying hanging masses $m_2$ to be attached, which exert external gravitational force $mg$ on the system. By manipulating $m_2$ as the independent variable, and measuring the time $t$ taken for the cart to travel a known distance $d=\qty{0.65}{\meter}$, we can measure the acceleration of the cart $a$ (dependent variable) for different net forces applied. 
 
-In this experiment, we aim to investigate the relationship between net force and acceleration using a cart system. The experimental setup consists of a cart with a constant weight placed on top, connected to a pulley system that allows for varying weights to be attached. By manipulating the mass of the weights pulling the cart and measuring the time taken for the cart to travel a predetermined distance, we can calculate the acceleration of the cart for different net forces applied.
-
-In the context of our setup, the acceleration of the cart can be expressed by the equation:
+In the context of our setup (see \cref{fig:setup}), the acceleration of the cart can be expressed by the equation:
 \begin{equation}
 a = \frac{m_2 g}{m_1 + m_2}
 \label{eq:n2lprediction}
 \end{equation}
-where $m_2$ is the hanging mass, $g=\qty{9.81}{\meter\per\second\squared}$ is the acceleration due to gravity, and $m_1$ is the mass of the cart.
+where $m_2$ is the hanging mass, $g=\qty{9.81}{\meter\per\second\squared}$ is the acceleration due to gravity, and $m_1$ is the mass of the cart. \cref{eq:n2lprediction} is valid for the free body diagram shown in \cref{fig:freebody}, assuming there is no friction between the cart and track or in the pulley, and that the mass of the string and pulley are negligible \cite{tipler}.  The numerator in \cref{eq:n2lprediction} is the applied external force $m_2 g$, while the denominator is the total system mass subject to acceleration, $m_1+m_2$.  A full derivation of \cref{eq:n2lprediction} using Newton's second law is given in Appendix~\ref{sec:appendix}. 
 
-We hypothesize that:
-
-Alternative Hypothesis ($H_1$): 
+We hypothesize that as the net force acting on the cart increases due to the addition of weights, the acceleration of the cart will also increase, demonstrating a direct proportionality between net force and acceleration as stated in Newton's second law \cite{tipler}:
 \begin{equation}
-H_1: a \propto F
+H_1: a \propto F.
 \end{equation}
-As the net force acting on the cart increases due to the addition of weights, the acceleration of the cart will also increase, demonstrating a direct proportionality between net force and acceleration as stated in Newton's second law \cite{tipler}.
-
-Null Hypothesis ($H_0$): 
+Or as a null hypothesis, we may observe that there is no significant relationship between the net force acting on the cart and the acceleration of the cart; the acceleration remains constant regardless of changes in net force, in which case we would reject Newton's second law:
 \begin{equation}
-H_0: a = k
+H_0: a = k.
 \end{equation}
-There is no significant relationship between the net force acting on the cart and the acceleration of the cart; the acceleration remains constant regardless of changes in net force.
-
-This experiment not only aims to validate this fundamental law but also provides insights into the practical applications of these principles in real-world scenarios, such as in vehicles and various mechanical systems.
-
+By comparing our measured acceleration $a$ as the force (via $m_2$) is varied, we can test these two hypotheses. 
+%This experiment not only aims to validate this fundamental law but also provides insights into the practical applications of these principles in real-world scenarios, such as in vehicles and various mechanical systems.
 
 
 
@@ -85,24 +77,27 @@ This experiment not only aims to validate this fundamental law but also provides
 
 \section{Methods and materials}
 
-\subsection{Materials}
-The materials used in this experiment were as follows:
+To test our hypotheses, we used the experimental setup pictured in \cref{fig:setup} and shown in the free body diagrams of \cref{fig:freebody}.  The setup included a small wheeled cart (PASCO Scientific; Roseville, CA) with additional mass so that $m_1=\qty{0.780}{\kilo\gram}$. The cart rolled within a small track (PASCO Scientific; Roseville, CA); we assumed the friction in the cart and track system to be negligible. The cart was connected to a string (assumed to be massless) that was fed over a pulley to hanging mass $m_2$, which was varied systematically ($m_2=\qtylist{0.020;0.050;0.100;0.200;0.500}{\kilo\gram}$)  in order to vary the applied external gravitational force on the system. The system was allowed to accelerate from rest and the time $t$ for the system to move $d=\qty{0.65}{\meter}$ was measured by a human observer using a stopwatch with \qty{0.01}{\second} precision as well as video recordings. 
 
-1. A minimal friction cart from PASCO with  an additional mass on top for a total mass of $m_1 = \qty{0.780}{\kilo\gram}$
+The measured acceleration $a$ of the cart was then calculated using the kinematic equation:
+\begin{equation}
+a = \frac{2d}{t^2},
+\label{eq:ameas}
+\end{equation}
+which assumes constant uniform acceleration; it comes from the simple kinematics equation solved for $a$ \cite{tipler}.  The measured acceleration was then compared to the acceleration predicted by \cref{eq:n2lprediction} in order to test the validity of Newton's second law. 
 
-2. Multiple hanging masses $m_2 = \qtylist{0.020;0.050;0.100;0.200;0.500}{\kilo\gram}$
 
-3. A pulley system
-
-4. A string connecting the cart and hanging mass
-
-5. A stopwatch for measuring time
-
-6. A measuring tape for measuring distance
-
-7. A scale for measuring mass
-
-8. A minimal friction track with PASCO-labeled measurements
+%    where $d$ represents the distance traveled, and $t$ represents the measured time
+%\subsection{Materials}
+%The materials used in this experiment were as follows:
+%1. A minimal friction cart from PASCO with  an additional mass on top for a total mass of $m_1 = \qty{0.780}{\kilo\gram}$
+%2. Multiple hanging masses $m_2 = \qtylist{0.020;0.050;0.100;0.200;0.500}{\kilo\gram}$
+%3. A pulley system
+%4. A string connecting the cart and hanging mass
+%5. A stopwatch for measuring time
+%6. A measuring tape for measuring distance
+%7. A scale for measuring mass
+%8. A minimal friction track with PASCO-labeled measurements
 
 \begin{figure}
 \begin{center}
@@ -118,27 +113,22 @@ The materials used in this experiment were as follows:
 \caption{\label{fig:setup} Physical Setup}
 \end{figure}
 
-
-
-
-\subsection{Procedure}
-
-The experiment was conducted as follows:
-
-\begin{enumerate}
-    \item A low-friction track was set up with a pulley system attached at one end. A cart ($m_1$) was placed on the track and connected to a hanging mass ($m_2$) using a string that passed over the pulley. This arrangement can be seen above in \cref{fig:freebody}, as it is a modified Atwood pulley system.
-    \item The hanging mass was suspended vertically off the edge of the track, ensuring that the string remained taut and aligned with the pulley to minimize friction.
-    \item The hanging mass was released, allowing the cart to accelerate along the track due to the force exerted by $m_2$.
-    \item The time $t$ taken for the cart to travel a specified distance $d$ was measured using stopwatches and video recordings. The distance $d$ was predetermined and marked on the track.
-    \item The acceleration $a$ of the cart was calculated using the kinematic equation:
-\begin{equation}
-a = \frac{2d}{t^2}
-\end{equation}
-    where $d$ represents the distance traveled, and $t$ represents the measured time.
-    \item The procedure was repeated for multiple configurations of $m_2$ by varying its mass. For each configuration, the acceleration was recorded and averaged over multiple trials to improve accuracy.
-\end{enumerate}
-
-Further details regarding the derivation of the acceleration formula can be found in the Appendix.
+%\subsection{Procedure}
+%The experiment was conducted as follows:
+%\begin{enumerate}
+%    \item A low-friction track was set up with a pulley system attached at one end. A cart ($m_1$) was placed on the track and connected to a hanging mass ($m_2$) using a string that passed over the pulley. This arrangement can be seen above in \cref{fig:freebody}, as it is a modified Atwood pulley system.
+%    \item The hanging mass was suspended vertically off the edge of the track, ensuring that the string remained taut and aligned with the pulley to minimize friction.
+%    \item The hanging mass was released, allowing the cart to accelerate along the track due to the force exerted by $m_2$.
+%    \item The time $t$ taken for the cart to travel a specified distance $d$ was measured using stopwatches and video recordings. The distance $d$ was predetermined and marked on the track.
+%    \item The acceleration $a$ of the cart was calculated using the kinematic equation:
+%\begin{equation}
+%a = \frac{2d}{t^2}
+%\end{equation}
+%    where $d$ represents the distance traveled, and $t$ represents the measured time.
+%    \item The procedure was repeated for multiple configurations of $m_2$ by varying its mass. For each configuration, the acceleration was recorded and averaged over multiple trials to improve accuracy.
+%\end{enumerate}
+%
+%Further details regarding the derivation of the acceleration formula can be found in the Appendix.
 
 %lm(formula = ameas.ms2 ~ mhat - 1, data = data)
 %
@@ -186,7 +176,7 @@ The data of \cref{tab:newtable1} are plotted in \cref{fig:graph}, which shows th
 %\includegraphics[width=1.0\linewidth]{graph_final.png}
 \includesvg[width=\columnwidth]{fig3.svg}
 \end{center}
-\caption{\label{fig:graph} Graph of mass ratio vs acceleration}  
+\caption{\label{fig:graph} Graph of mass ratio vs acceleration. Measured $a$ from \cref{tab:newtable1} and \cref{eq:ameas} shown as black dots.  Blue line shows linear regression (slope=\qty{8.95}{\meter\per\second\squared}, $p=\num{1.25e-5}$, $d.f.=4$). Linear regression with a non-zero intercept term showed the intercept is not significantly different from zero ($p=0.66$).}  
 \end{figure}
 
 
@@ -275,37 +265,35 @@ The data of \cref{tab:newtable1} are plotted in \cref{fig:graph}, which shows th
 
 
 \section{Discussion}
+%\textbf{Interpretation of Results:}
+%\paragraph{Proportional Relationship and Validation of Newton's Second Law:}
+\subsection{Proportional relationship and validation of Newton's second law}
+\cref{fig:graph} demonstrates a clear linear relationship between the mass ratio $ \frac{m_2}{m_1 + m_2}$ and the acceleration $a$. As the mass ratio increases, the acceleration increases proportionally, consistent with the theoretical model of \cref{eq:n2lprediction}. The data points closely follow the expected trend, and the slope of the best-fit line (\qty{8.95}{\meter\per\second\squared} is roughly consistent with the expected value of the gravitational constant $g=\qty{9.81}{\meter\per\second\squared}$). Small deviations from the line may be attributed to measurement errors, such as timing inaccuracies or frictional losses in the cart and pulley system. 
 
-\textbf{Interpretation of Results:}
+While there are minor discrepancies between the calculated and predicted values, the results are generally in agreement, validating the proportionality between the applied force and acceleration as predicted by Newton's second law. The linear relationship observed in \cref{fig:graph} supports (linear regression, $p=\num{1.25e-5}$, $d.f.=4$) that our hypothesis $H_1$, Newton's second law $\sum F = ma$.
 
-\paragraph{Proportional Relationship and Validation of Newton's Second Law:}
-
-The graph demonstrates a clear linear relationship between the mass ratio \( \frac{m_2}{m_1 + m_2} \) and the acceleration \( a \). As the mass ratio increases, the acceleration increases proportionally, consistent with the theoretical model \( a = \frac{m_2 g}{m_1 + m_2} \). The data points closely follow the expected trend, and the slope of the best-fit line is consistent with the value of the gravitational constant \( g \). Small deviations from the line may be attributed to measurement errors, such as timing inaccuracies or frictional losses in the pulley system. 
-
-While there are minor discrepancies between the calculated and predicted values, the results are generally in agreement, validating the proportionality between the applied force and acceleration as predicted by Newton's Second Law. The linear relationship observed in the graph confirms that the experiment supports the theoretical model.
-
-For a more precise comparison, linear regression analysis could be performed on the data to quantify the goodness of fit and provide a more detailed measure of the correlation between force and acceleration.
+%For a more precise comparison, linear regression analysis could be performed on the data to quantify the goodness of fit and provide a more detailed measure of the correlation between force and acceleration.
  
 
-\section{Sources of Error and Implications:}
+\section{Sources of experimental error}
+%\paragraph{Friction and Air Resistance:}
+The actual acceleration observed in the experiment may have been slightly lower than predicted due to the effects of friction between the cart and the track, as well as air resistance acting on the system. These factors reduce the net force acting on the cart and could explain why our observed slope was slightly less that the expected value of $g=\qty{9.81}{\meter\per\second\squared}$.
 
-\paragraph{Friction and Air Resistance:}
-
-The actual acceleration observed in the experiment may have been slightly lower than predicted due to the effects of friction between the cart and the track, as well as air resistance acting on the system. These factors reduce the net force acting on the cart and could explain any discrepancies between the observed and predicted accelerations.
-
-\paragraph{Timing Accuracy:}
-
+%\paragraph{Timing Accuracy:}
 The accuracy of the recorded time for each trial is affected by human reaction time when using a stopwatch. This introduces a small amount of error that could influence the precision of the calculated acceleration. To reduce this error, automated timing devices or motion sensors could be employed in future experiments, ensuring more consistent and accurate timing measurements.
 
-\paragraph{Pulley Efficiency:}
-
+%\paragraph{Pulley Efficiency:}
 The pulley system itself may introduce some resistance due to friction or mechanical inefficiencies, which would slightly reduce the net force experienced by the cart. This could contribute to a smaller acceleration than theoretically expected, and future experiments could attempt to minimize these losses by using a more efficient pulley system.
 
-\section{Conclusion:}
 
-While the data generally supports the hypothesis of a proportional relationship between force and acceleration, a more thorough analysis, including statistical tools like regression analysis and error propagation, would provide a clearer understanding of the relationship and any deviations from the expected results.
 
-This experiment successfully illustrates the direct relationship between net force and acceleration in a pulley system, affirming Newton's Second Law of Motion [1] in a practical setup. The data clearly demonstrate that as net force on the cart increases, so does its acceleration, supporting our hypothesis and highlighting the predictable nature of classical mechanics.
+
+
+\section{Conclusion}
+
+%While the data generally supports the hypothesis of a proportional relationship between force and acceleration, a more thorough analysis, including statistical tools like regression analysis and error propagation, would provide a clearer understanding of the relationship and any deviations from the expected results.
+
+This experiment successfully illustrates the direct relationship between net force and acceleration in a pulley system, affirming Newton's second law \cite{tipler} in a practical setup. The data clearly demonstrate that as net force on the cart increases, so does its acceleration, supporting our hypothesis and highlighting the predictable nature of classical mechanics.
 
 For future extensions, teams could investigate the effects of additional variables, such as frictional forces by using various surfaces under the cart, or examine the impact of pulley efficiency by experimenting with different pulley materials and designs. These modifications would offer a more comprehensive understanding of real-world factors that influence force and acceleration relationships in mechanical systems.
 
@@ -319,21 +307,52 @@ For future extensions, teams could investigate the effects of additional variabl
 
 \section{Acknowledgments}\label{sec:Acknowledgements}
 
-We would like to thank Dr. Evangelista for enlightening us with the knowledge required to complete this lab. In addition, we appreciate his acts of providing us the materials to test this hypothesis.
+%We would like to thank Dr. Evangelista for enlightening us with the knowledge required to complete this lab. In addition, we appreciate his acts of providing us the materials to test this hypothesis.
 
-\section{Contributions}\label{sec:Contributions}
+We thank several anonymous reviewers whose helpful comments improved our manuscript. We thank Dr Evangelista for helping us perform linear regression on our data using the \texttt{lm()} function in R \cite{R2024}. 
 
-Samay Prabhu - Measured data such as masses, distance traveled, and time for cart to reach end of rail. Assisted in the physical setup of the lab and checked over the calculations. Wrote multiple parts of the lab as well as concluded the results.
-
-Siddharth Kedharnath - Assisted in the measuring of data, completed calculations, and setup of the physical lab. Wrote multiple parts of the lab as well and concluded the results.
-
-Joel D'Souza - Setup the physical aspects of the lab and performed the main calculations for all the data needed. Proved that our data supported Newton's second law.
-
-Daniel Altman - Measured data for more accurate results and constructed free body diagrams. Assisted in the derivation of the acceleration formula.
+%\section{Contributions}\label{sec:Contributions}
+SP measured data such as masses, distance traveled, and time for cart to reach end of rail, assisted in the physical setup of the lab and checked over the calculations, wrote multiple parts of the lab as well as concluded the results.  SK assisted in the measuring of data, completed calculations, and setup of the physical lab, wrote multiple parts of the lab as well and concluded the results. JDS setup the physical aspects of the lab and performed the main calculations for all the data needed. DA measured data for more accurate results and constructed free body diagrams and assisted in the derivation of the acceleration formula.
 
 
+\appendix
+\section{\label{sec:appendix} Derivations of formulae}
+\subsection{Acceleration of a half-Atwood machine assuming Newton's second law is valid}
+To derive the formula for the acceleration $a$ of the system in \cref{fig:freebody}, we analyze the forces acting on both $m_1$ and $m_2$. For $m_1$, the only horizontal force acting on it is the tension $T$ in the string, leading to the equation:
+\begin{equation}
+T = m_1 a.
+\label{eq:app1}
+\end{equation}
+For $m_2$, the forces acting on it are the downward force due to gravity ($m_2 g$) and the upward tension $T$ in the string, thus:
+\begin{equation}
+m_2g - T = m_2a .
+\label{eq:app2}
+\end{equation}
+We substitute \cref{eq:app1} into \cref{eq:app2} to eliminate $T$ and simplify:
+\begin{align}
+m_2g - m_1a &= m_2a, \\
+m_1a + m_2a &= m_2g, \\
+a(m_1 + m_2) &= m_2g .\\
+\end{align}
+Solving for $a$ gives the acceleration of the system as predicted by Newton's second law::
+\begin{equation}
+a = \frac{m_2g}{m_1 + m_2} .
+\end{equation}
 
-
+\subsection{Kinematic equation for constant acceleration}
+The kinematic equation for an object undergoing uniformly accelerated motion is given by:
+\begin{equation}
+d = v_0 t + \frac{1}{2} a t^2,
+\label{eq:app21}
+\end{equation}
+where $d$ is the displacement, $v_0$ is the initial velocity, $a$ is the acceleration, and $t$ is time. If the object starts from rest, the initial velocity is $v_0=0$. We are also free to chose $x_0=0$.  \cref{eq:app21} simplifies to
+\begin{equation}
+d = \frac{1}{2} a t^2.
+\end{equation}
+Rearranging to solve for \( a \), we get:
+\begin{equation}
+a = \frac{2d}{t^2}.
+\end{equation}
 
 %\section{References}\label{sec:References}
 %
