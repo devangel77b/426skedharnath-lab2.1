@@ -54,20 +54,20 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{fig3_svg-tex.pdf}}%
-    \put(0.07995371,0.12189816){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
-    \put(0.07995371,0.2201389){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1\end{tabular}}}}%
-    \put(0.07995371,0.31837961){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2\end{tabular}}}}%
-    \put(0.07995371,0.41662038){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}3\end{tabular}}}}%
-    \put(0.07995371,0.51486111){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}4\end{tabular}}}}%
-    \put(0.07995371,0.61310185){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5\end{tabular}}}}%
+    \put(0.07847223,0.1200463){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
+    \put(0.07847223,0.21865742){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1\end{tabular}}}}%
+    \put(0.07847223,0.31722221){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2\end{tabular}}}}%
+    \put(0.07847223,0.41578704){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}3\end{tabular}}}}%
+    \put(0.07847223,0.51439815){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}4\end{tabular}}}}%
+    \put(0.07847223,0.61296296){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{fig3_svg-tex.pdf}}%
-    \put(0.13680555,0.0701852){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
-    \put(0.29773147,0.0701852){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.1\end{tabular}}}}%
-    \put(0.4586111,0.0701852){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.2\end{tabular}}}}%
-    \put(0.61953707,0.0701852){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.3\end{tabular}}}}%
-    \put(0.7804167,0.0701852){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.4\end{tabular}}}}%
-    \put(0.9413426,0.0701852){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
-    \put(0.5390741,0.02736113){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{m_2}{m_1+m_2+m_c}$\end{tabular}}}}%
-    \put(0.04490741,0.37805556){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$ (\unit{\meter\per\second\squared})\end{tabular}}}}}%
+    \put(0.13537037,0.06819442){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.29652779,0.06819442){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.1\end{tabular}}}}%
+    \put(0.45773149,0.06819442){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.2\end{tabular}}}}%
+    \put(0.61888885,0.06819442){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.3\end{tabular}}}}%
+    \put(0.78009259,0.06819442){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.4\end{tabular}}}}%
+    \put(0.94124999,0.06819442){\color[rgb]{0.30196078,0.30196078,0.30196078}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.53833333,0.02624999){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{m_2}{m_1+m_2+m_c}$\end{tabular}}}}%
+    \put(0.045,0.37712963){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$ (\unit{\meter\per\second\squared})\end{tabular}}}}}%
   \end{picture}%
 \endgroup%
