@@ -1,4 +1,4 @@
-﻿\documentclass[reprint,amsmath,amssymb,aps]{revtex4-2}
+﻿\documentclass[reprint,amsmath,amssymb,aps,twoside]{revtex4-2}
 
 
 \usepackage{graphicx}
@@ -13,11 +13,29 @@
 \crefname{figure}{Fig.}{Figs.}
 \crefname{table}{Table}{Tables}
 \usepackage{svg}
+% set PDF metadata
+\hypersetup{%
+pdftitle={Examining the relationship between net force and acceleration in a pulley system},
+pdfauthor={Siddharth Kedharnath, Samay Prabhu, Daniel Altman, and Joel D'Souza},
+}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RE,RO]{J S\&E \textbf{1}, 17--19 (2024)}
+\fancyhead[LO]{Kedharnath et al.}
+\fancyhead[LE]{Examining the relationship between force and acceleration}
+\fancyfoot[C]{\thepage}
+\fancypagestyle{mytitlepage}{
+\fancyhf{}
+\fancyhead[C]{Journal of Science \& Engineering \textbf{1}, 17--19 (2024)}
+\fancyfoot[C]{\thepage}
+}
 
 
 
 
 \begin{document}
+\setcounter{page}{17}
 \title{Examining the relationship between the net force and acceleration in a pulley system}
 \author{Siddharth Kedharnath}
 \email{Contact author: 426skedharnath@frhsd.com}
@@ -34,7 +52,7 @@ This experiment tested Newton’s second law of motion, $F=ma$, by examining the
 
 \keywords{keywords here}
 
-\maketitle
+\maketitle\thispagestyle{mytitlepage}
 
 
 
